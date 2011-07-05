@@ -1,1 +1,6 @@
 Jason Van Cleave’s iPhone.zip
+/build
+*.app
+*.pbxuser
+*.mode1v3
+.mode1v3
