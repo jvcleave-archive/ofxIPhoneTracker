@@ -1,0 +1,10 @@
+WILL NOT WORK IF YOU HAVE UPDATED TO IOS 4.3.3 as the data is now encrypted. More info on saving your data: https://openpaths.cc/
+
+Loads data either from a system that has an iPhone synced with iTunes or a provided consolidated.db file (renamed to the device). Test app displays tracked locations on a simple sphere.
+
+A sample file is included (my iPhone location data) and the app has the option of saving so you can use on a machine without synced data.
+
+Ported functions from http://petewarden.github.com/iPhoneTracker/ to make stored location data accessible from openframeworks 007 (https://github.com/openframeworks/openFrameworks) however it can probably be easily ported to OF 0062. 
+
+Project inherits GPL from iPhoneTracker (favorite explanation here: http://gskinner.com/blog/archives/2008/07/source_code_lic_1.html#gpl)
+
