@@ -2,6 +2,7 @@
 
 #include "ofMain.h"
 #include "ofxIPhoneTracker.h"
+#include "ofxSimpleGuiToo.h"
 
 
 class testApp : public ofBaseApp{
@@ -22,8 +23,14 @@ class testApp : public ofBaseApp{
 		void gotMessage(ofMessage msg);
 		ofxIPhoneTracker *tracker;
 		vector<ofPoint> trackedPoints;
+		vector<ofPoint> trackedVectors;
 		int numTrackedPoints;
 		ofEasyCam easyCam;
 		int radius;
+		ofImage earth;
+		GLUquadricObj *quadric;
+	
+	
+		ofxSimpleGuiToo gui;
 
 };
