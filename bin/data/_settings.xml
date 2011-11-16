@@ -1,0 +1,14 @@
+<controls>
+    <Toggle_doUseSampleFile>
+        <name>doUseSampleFile</name>
+        <value>1</value>
+    </Toggle_doUseSampleFile>
+    <Toggle_doWifi>
+        <name>doWifi</name>
+        <value>0</value>
+    </Toggle_doWifi>
+    <Toggle_doStart>
+        <name>doStart</name>
+        <value>0</value>
+    </Toggle_doStart>
+</controls>
