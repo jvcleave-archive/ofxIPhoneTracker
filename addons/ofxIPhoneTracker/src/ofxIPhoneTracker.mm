@@ -157,7 +157,7 @@ void ofxIPhoneTracker::saveFileToDisk(string sourceFile, string newFile)
 	const char * systemCommand;
 	string systemCommandString = "cp \"";
 	systemCommandString +=  sourceFile;
-	systemCommandString += "\" \"" + ofToDataPath("", true) + newFile + "\"";
+	systemCommandString += "\" \"" + ofToDataPath("", true) + newFile + "_" +ofGetTimestampString() +".db" + "\"";
 	
 	systemCommand = systemCommandString.c_str();
 	

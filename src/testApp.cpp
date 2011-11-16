@@ -16,6 +16,7 @@ void testApp::setup()
 	gui.show();
 	
 	earthImage.loadImage( "earth_4096x2048.png" );
+	
     earthTexture = &earthImage.getTextureReference();
 	
     earthCenter.x = ofGetWidth()  * 0.5;
@@ -29,7 +30,7 @@ void testApp::setup()
     earth_nor = NULL;
     
     createSphere( earthTexture, ofVec3f(), earthRadius, 200 );
-	
+	camera.setTarget(ofVec3f(earthCenter.x, earthCenter.y, earthCenter.z));
 	ofEnableAlphaBlending();
 
 }
@@ -74,7 +75,7 @@ void testApp::update()
 		
 	}
 	ofSetWindowTitle(ofToString(ofGetFrameRate()));
-	updateMouse();
+	//updateMouse();
 }
 //--------------------------------------------------------------
 void testApp :: updateMouse()
@@ -194,7 +195,11 @@ void testApp::draw()
 	
 	if (hasStarted)
 	{
+		camera.begin();
+		
 		drawGlobe();
+		//camera.setTarget(ofVec3f (earthCenter.x, earthCenter.y, earthCenter.z));
+		camera.end();
 	}
 	
 	gui.draw();
@@ -207,7 +212,9 @@ void testApp::drawGlobe()
     glEnable( GL_SMOOTH );
     
 	glPushMatrix();
+	
 	glTranslatef( earthCenter.x, earthCenter.y, earthCenter.z );
+	
     glMultMatrixf( mat.getPtr() );
     
     drawSphere( earthTexture );
@@ -243,6 +250,7 @@ void testApp :: drawSphere ( ofTexture* texture )
 
 void testApp :: drawLocations ( vector<ofVec2f>& locations, float radius )
 {
+	ofPushStyle();
     ofFill();
     ofSetColor( ofRandom(255), ofRandom(255), ofRandom(255) );
     
@@ -268,8 +276,7 @@ void testApp :: drawLocations ( vector<ofVec2f>& locations, float radius )
         }
         glPopMatrix();
     }
-    
-    ofSetColor( 255 );
+    ofPopStyle();
 }
 
 //---------------------------------------------------------------------------------
@@ -334,20 +341,20 @@ void testApp::mouseMoved(int x, int y ){
 
 //--------------------------------------------------------------
 void testApp::mouseDragged(int x, int y, int button){
-	mouseDown = ofVec2f( x, y );
+	//mouseDown = ofVec2f( x, y );
 }
 
 //--------------------------------------------------------------
 void testApp::mousePressed(int x, int y, int button){
-	bMouseDown = true;
+	/*bMouseDown = true;
     mouseDown = ofVec2f( x, y );
     mouseLast = ofVec2f( x, y );
-    mouseVel  = ofVec2f( 0, 0 );
+    mouseVel  = ofVec2f( 0, 0 );*/
 }
 
 //--------------------------------------------------------------
 void testApp::mouseReleased(int x, int y, int button){
-	bMouseDown = false;
+	//bMouseDown = false;
 
 }
 

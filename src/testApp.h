@@ -4,7 +4,6 @@
 #include "ofxIPhoneTracker.h"
 #include "ofxSimpleGuiToo.h"
 
-
 class testApp : public ofBaseApp{
 
 	public:
@@ -69,4 +68,6 @@ class testApp : public ofBaseApp{
 
 	void drawGlobe();
 	void updateMouse();
+	
+	ofEasyCam camera;
 };
