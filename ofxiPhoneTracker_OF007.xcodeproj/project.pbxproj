@@ -7,13 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0326741213C2D9BF003756CB /* ofxIPhoneTracker.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0326741113C2D9BF003756CB /* ofxIPhoneTracker.mm */; };
-		039FD6E713C19294004AE02D /* parsembdb.m in Sources */ = {isa = PBXBuildFile; fileRef = 039FD6E513C19294004AE02D /* parsembdb.m */; };
 		039FD74113C19513004AE02D /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039FD74013C19513004AE02D /* CoreVideo.framework */; };
 		039FD74613C1952A004AE02D /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039FD74513C1952A004AE02D /* QTKit.framework */; };
-		039FD77E13C1992D004AE02D /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 039FD77913C1992D004AE02D /* FMDatabase.m */; };
-		039FD77F13C1992D004AE02D /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 039FD77B13C1992D004AE02D /* FMDatabaseAdditions.m */; };
-		039FD78013C1992D004AE02D /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 039FD77D13C1992D004AE02D /* FMResultSet.m */; };
 		039FD79113C199B7004AE02D /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 039FD79013C199B7004AE02D /* libsqlite3.0.dylib */; };
 		039FD7C413C19CE5004AE02D /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039FD7C313C19CE5004AE02D /* CoreServices.framework */; };
 		03CFE94D1473AC5E006C66B3 /* ofxSimpleGuiButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03CFE92B1473AC5E006C66B3 /* ofxSimpleGuiButton.cpp */; };
@@ -36,8 +31,13 @@
 		03CFE9741473AD0F006C66B3 /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03CFE96E1473AD0F006C66B3 /* tinyxmlparser.cpp */; };
 		03CFE9751473AD0F006C66B3 /* ofxXmlSettings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03CFE9701473AD0F006C66B3 /* ofxXmlSettings.cpp */; };
 		03CFE9871473AD1A006C66B3 /* ofxMSAInteractiveObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03CFE9831473AD1A006C66B3 /* ofxMSAInteractiveObject.cpp */; };
+		03E29F851473B2FD00516875 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E29F7C1473B2FD00516875 /* FMDatabase.m */; };
+		03E29F861473B2FD00516875 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E29F7E1473B2FD00516875 /* FMDatabaseAdditions.m */; };
+		03E29F871473B2FD00516875 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E29F801473B2FD00516875 /* FMResultSet.m */; };
+		03E29F881473B2FD00516875 /* ofxIPhoneTracker.mm in Sources */ = {isa = PBXBuildFile; fileRef = 03E29F821473B2FD00516875 /* ofxIPhoneTracker.mm */; };
+		03E29F891473B2FD00516875 /* parsembdb.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E29F841473B2FD00516875 /* parsembdb.m */; };
 		BBAB23CB13894F3D00AA2426 /* GLUT.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBAB23BE13894E4700AA2426 /* GLUT.framework */; };
-		E4328149138ABC9F0047C5CB /* openFrameworks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworks.a */; };
+		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
 		E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9710E8CC7DD009D7055 /* AGL.framework */; };
 		E45BE97C0E8CC7DD009D7055 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9720E8CC7DD009D7055 /* ApplicationServices.framework */; };
 		E45BE97D0E8CC7DD009D7055 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9730E8CC7DD009D7055 /* AudioToolbox.framework */; };
@@ -85,18 +85,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0326741013C2D9BF003756CB /* ofxIPhoneTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxIPhoneTracker.h; sourceTree = "<group>"; };
-		0326741113C2D9BF003756CB /* ofxIPhoneTracker.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxIPhoneTracker.mm; sourceTree = "<group>"; };
-		039FD6E513C19294004AE02D /* parsembdb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = parsembdb.m; sourceTree = "<group>"; };
-		039FD6E613C19294004AE02D /* parsembdb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parsembdb.h; sourceTree = "<group>"; };
 		039FD74013C19513004AE02D /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		039FD74513C1952A004AE02D /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
-		039FD77813C1992D004AE02D /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
-		039FD77913C1992D004AE02D /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
-		039FD77A13C1992D004AE02D /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
-		039FD77B13C1992D004AE02D /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
-		039FD77C13C1992D004AE02D /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
-		039FD77D13C1992D004AE02D /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 		039FD79013C199B7004AE02D /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		039FD7C313C19CE5004AE02D /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
 		03CFE9281473AC5E006C66B3 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE.txt; path = addons/ofxSimpleGuiToo/LICENSE.txt; sourceTree = SOURCE_ROOT; };
@@ -143,6 +133,16 @@
 		03CFE9711473AD0F006C66B3 /* ofxXmlSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxXmlSettings.h; path = addons/ofxXmlSettings/src/ofxXmlSettings.h; sourceTree = SOURCE_ROOT; };
 		03CFE9831473AD1A006C66B3 /* ofxMSAInteractiveObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxMSAInteractiveObject.cpp; path = addons/ofxMSAInteractiveObject/src/ofxMSAInteractiveObject.cpp; sourceTree = SOURCE_ROOT; };
 		03CFE9841473AD1A006C66B3 /* ofxMSAInteractiveObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxMSAInteractiveObject.h; path = addons/ofxMSAInteractiveObject/src/ofxMSAInteractiveObject.h; sourceTree = SOURCE_ROOT; };
+		03E29F7B1473B2FD00516875 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		03E29F7C1473B2FD00516875 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		03E29F7D1473B2FD00516875 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		03E29F7E1473B2FD00516875 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		03E29F7F1473B2FD00516875 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		03E29F801473B2FD00516875 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		03E29F811473B2FD00516875 /* ofxIPhoneTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxIPhoneTracker.h; sourceTree = "<group>"; };
+		03E29F821473B2FD00516875 /* ofxIPhoneTracker.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxIPhoneTracker.mm; sourceTree = "<group>"; };
+		03E29F831473B2FD00516875 /* parsembdb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parsembdb.h; sourceTree = "<group>"; };
+		03E29F841473B2FD00516875 /* parsembdb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = parsembdb.m; sourceTree = "<group>"; };
 		BBAB23BE13894E4700AA2426 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = ../../../libs/glut/lib/osx/GLUT.framework; sourceTree = "<group>"; };
 		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
 		E45BE9710E8CC7DD009D7055 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
@@ -171,7 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4EB6799138ADC1D00A09F29 /* GLUT.framework in Frameworks */,
-				E4328149138ABC9F0047C5CB /* openFrameworks.a in Frameworks */,
+				E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */,
 				E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */,
 				E45BE97C0E8CC7DD009D7055 /* ApplicationServices.framework in Frameworks */,
 				E45BE97D0E8CC7DD009D7055 /* AudioToolbox.framework in Frameworks */,
@@ -193,29 +193,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0326740F13C2D9BF003756CB /* ofxIPhoneTracker */ = {
-			isa = PBXGroup;
-			children = (
-				0326741013C2D9BF003756CB /* ofxIPhoneTracker.h */,
-				0326741113C2D9BF003756CB /* ofxIPhoneTracker.mm */,
-			);
-			name = ofxIPhoneTracker;
-			path = addons/ofxIPhoneTracker;
-			sourceTree = "<group>";
-		};
-		039FD77713C1992D004AE02D /* fmdb */ = {
-			isa = PBXGroup;
-			children = (
-				039FD77813C1992D004AE02D /* FMDatabase.h */,
-				039FD77913C1992D004AE02D /* FMDatabase.m */,
-				039FD77A13C1992D004AE02D /* FMDatabaseAdditions.h */,
-				039FD77B13C1992D004AE02D /* FMDatabaseAdditions.m */,
-				039FD77C13C1992D004AE02D /* FMResultSet.h */,
-				039FD77D13C1992D004AE02D /* FMResultSet.m */,
-			);
-			path = fmdb;
-			sourceTree = "<group>";
-		};
 		03CFE9271473AC5E006C66B3 /* ofxSimpleGuiToo */ = {
 			isa = PBXGroup;
 			children = (
@@ -329,9 +306,44 @@
 			path = addons/ofxMSAInteractiveObject/src;
 			sourceTree = SOURCE_ROOT;
 		};
+		03E29F781473B2FD00516875 /* ofxIPhoneTracker */ = {
+			isa = PBXGroup;
+			children = (
+				03E29F791473B2FD00516875 /* src */,
+			);
+			name = ofxIPhoneTracker;
+			path = addons/ofxIPhoneTracker;
+			sourceTree = "<group>";
+		};
+		03E29F791473B2FD00516875 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				03E29F7A1473B2FD00516875 /* fmdb */,
+				03E29F811473B2FD00516875 /* ofxIPhoneTracker.h */,
+				03E29F821473B2FD00516875 /* ofxIPhoneTracker.mm */,
+				03E29F831473B2FD00516875 /* parsembdb.h */,
+				03E29F841473B2FD00516875 /* parsembdb.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		03E29F7A1473B2FD00516875 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				03E29F7B1473B2FD00516875 /* FMDatabase.h */,
+				03E29F7C1473B2FD00516875 /* FMDatabase.m */,
+				03E29F7D1473B2FD00516875 /* FMDatabaseAdditions.h */,
+				03E29F7E1473B2FD00516875 /* FMDatabaseAdditions.m */,
+				03E29F7F1473B2FD00516875 /* FMResultSet.h */,
+				03E29F801473B2FD00516875 /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
 		BB4B014C10F69532006C3DED /* addons */ = {
 			isa = PBXGroup;
 			children = (
+				03E29F781473B2FD00516875 /* ofxIPhoneTracker */,
 				03CFE9761473AD1A006C66B3 /* ofxMSAInteractiveObject */,
 				03CFE9681473AD0F006C66B3 /* ofxXmlSettings */,
 				03CFE9271473AC5E006C66B3 /* ofxSimpleGuiToo */,
@@ -368,7 +380,7 @@
 		E4328144138ABC890047C5CB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E4328148138ABC890047C5CB /* openFrameworks.a */,
+				E4328148138ABC890047C5CB /* openFrameworksDebug.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -385,7 +397,6 @@
 		E4B69B4A0A3A1720003C02F2 = {
 			isa = PBXGroup;
 			children = (
-				0326740F13C2D9BF003756CB /* ofxIPhoneTracker */,
 				E4B69E1C0A3A1BDC003C02F2 /* src */,
 				E4EEC9E9138DF44700A80321 /* openFrameworks */,
 				BB4B014C10F69532006C3DED /* addons */,
@@ -401,9 +412,6 @@
 		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				039FD77713C1992D004AE02D /* fmdb */,
-				039FD6E513C19294004AE02D /* parsembdb.m */,
-				039FD6E613C19294004AE02D /* parsembdb.h */,
 				E4B69E1D0A3A1BDC003C02F2 /* main.mm */,
 				E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */,
 				E4B69E1F0A3A1BDC003C02F2 /* testApp.h */,
@@ -476,10 +484,10 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		E4328148138ABC890047C5CB /* openFrameworks.a */ = {
+		E4328148138ABC890047C5CB /* openFrameworksDebug.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = openFrameworks.a;
+			path = openFrameworksDebug.a;
 			remoteRef = E4328147138ABC890047C5CB /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -508,11 +516,6 @@
 			files = (
 				E4B69E200A3A1BDC003C02F2 /* main.mm in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* testApp.cpp in Sources */,
-				039FD6E713C19294004AE02D /* parsembdb.m in Sources */,
-				039FD77E13C1992D004AE02D /* FMDatabase.m in Sources */,
-				039FD77F13C1992D004AE02D /* FMDatabaseAdditions.m in Sources */,
-				039FD78013C1992D004AE02D /* FMResultSet.m in Sources */,
-				0326741213C2D9BF003756CB /* ofxIPhoneTracker.mm in Sources */,
 				03CFE94D1473AC5E006C66B3 /* ofxSimpleGuiButton.cpp in Sources */,
 				03CFE94E1473AC5E006C66B3 /* ofxSimpleGuiColorPicker.cpp in Sources */,
 				03CFE94F1473AC5E006C66B3 /* ofxSimpleGuiComboBox.cpp in Sources */,
@@ -533,6 +536,11 @@
 				03CFE9741473AD0F006C66B3 /* tinyxmlparser.cpp in Sources */,
 				03CFE9751473AD0F006C66B3 /* ofxXmlSettings.cpp in Sources */,
 				03CFE9871473AD1A006C66B3 /* ofxMSAInteractiveObject.cpp in Sources */,
+				03E29F851473B2FD00516875 /* FMDatabase.m in Sources */,
+				03E29F861473B2FD00516875 /* FMDatabaseAdditions.m in Sources */,
+				03E29F871473B2FD00516875 /* FMResultSet.m in Sources */,
+				03E29F881473B2FD00516875 /* ofxIPhoneTracker.mm in Sources */,
+				03E29F891473B2FD00516875 /* parsembdb.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
