@@ -10,6 +10,7 @@ bool hasStarted = false;
 //--------------------------------------------------------------
 void testApp::setup()
 {
+	ofDisableArbTex();
 	gui.addToggle("doUseSampleFile", doUseSampleFile);
 	gui.addToggle("doWifi", doWifi);
 	gui.addToggle("doStart", doStart);

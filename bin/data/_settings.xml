@@ -1,7 +1,7 @@
 <controls>
     <Toggle_doUseSampleFile>
         <name>doUseSampleFile</name>
-        <value>1</value>
+        <value>0</value>
     </Toggle_doUseSampleFile>
     <Toggle_doWifi>
         <name>doWifi</name>
